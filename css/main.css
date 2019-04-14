@@ -109,6 +109,22 @@ body {
   background: #515151;
 }
 
+header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.div-intro {
+   display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -133,6 +149,14 @@ body {
 .div-1, .div-2 {
   border-right: .1px solid white;
   border-width: thin;
+}
+
+footer {
+   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid white;
 }
 
 
